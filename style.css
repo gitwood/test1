@@ -72,5 +72,15 @@
     font-size: 16px;
     color: green;
 }
+
+
+@media screen and (min-width: 700px) {
+    .logo img {
+    -webkit-filter: saturate(800%); /* Chrome, Safari, Opera */
+    filter: saturate(800%);
+}
+}
+
+
 Status API Training Shop Blog About Pricing
 © 2016 GitHub, Inc. Terms 
