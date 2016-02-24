@@ -72,8 +72,9 @@
     font-size: 16px;
     color: green;
 }
-
-
+.social a:hover {
+    background-color: yellow;
+}
 @media screen and (min-width: 700px) {
     .logo img {
     -webkit-filter: saturate(800%); /* Chrome, Safari, Opera */
