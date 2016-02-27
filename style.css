@@ -1,20 +1,3 @@
-/*
-#body{
-    background:#dda3b9;
-}
-
-.bg{
-    position: fixed;
-    background-image: url(bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    left:0;
-    top:0;
-}
-*/
 .bg2{
     background: #dda3b9 url(bg.jpg) no-repeat center fixed;
     background-size: cover;
