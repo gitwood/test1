@@ -16,7 +16,7 @@
 }
 */
 .bg2{
-    background: url(bg.jpg) no-repeat center fixed;
+    background: #dda3b9 url(bg.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
