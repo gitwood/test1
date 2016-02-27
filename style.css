@@ -21,6 +21,7 @@
     position: absolute;
     left: 20px;
     top: 20px;
+    z-index: 1;
 }
 
 .leon{
@@ -70,7 +71,6 @@
     filter: saturate(800%);
 }
 }
-
 
 Status API Training Shop Blog About Pricing
 © 2016 GitHub, Inc. Terms 
