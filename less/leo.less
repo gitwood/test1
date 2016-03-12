@@ -34,43 +34,49 @@
     position: relative;
     margin: 10px auto;
     text-align: center;
-}
-.myTable tr, .myTable th{
+     th{
     padding: 5px;
     background-color: #eee;
-}
-.myTable tr:hover{
+     }
+    
+     tr{
+    padding: 5px;
+    background-color: #eee;
+     &:hover{
     background-color: yellow;
     cursor: pointer;
-}
-.myTable tr td{
+       }
+       td{
     padding: 5px 15px;
+       }
+    
+    }
+    
 }
-
-
 .social{
     position: relative;
     margin: 20px;
-}
-.social h3{
+    
+    h3{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 25px;
 }
-.social a{
+   a{
     font-size: 16px;
     color: green;
-}
-.social a:hover {
+    &:hover {
     background-color: yellow;
 }
+}
+
+}
+
+
 @media screen and (min-width: 700px) {
     .logo img {
     -webkit-filter: saturate(800%); /* Chrome, Safari, Opera */
     filter: saturate(800%);
 }
 }
-
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms 
