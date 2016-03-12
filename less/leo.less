@@ -1,0 +1,82 @@
+.bg2{
+    background: #dda3b9 url(/test1/bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.card{
+    position:relative;
+    width:600px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 40px;
+    color: orange;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+.leon{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.myTable{
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+     th{
+    padding: 5px;
+    background-color: #eee;
+     }
+    
+     tr{
+    padding: 5px;
+    background-color: #eee;
+     &:hover{
+    background-color: yellow;
+    cursor: pointer;
+       }
+       td{
+    padding: 5px 15px;
+       }
+    
+    }
+    
+}
+.social{
+    position: relative;
+    margin: 20px;
+    
+    h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+   a{
+    font-size: 16px;
+    color: green;
+    &:hover {
+    background-color: yellow;
+}
+}
+
+}
+
+
+@media screen and (min-width: 700px) {
+    .logo img {
+    -webkit-filter: saturate(800%); /* Chrome, Safari, Opera */
+    filter: saturate(800%);
+}
+}
